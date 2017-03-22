@@ -1,9 +1,21 @@
 /*-------- Utility Styles --------*/
-* {
+body {
 	box-sizing: border-box; 
+	content: default;
+	width: 50px;
+	height: 50px;
+
+
+
+
+
+
 	/* ^^^ Forces all elements to include content, padding, and border as part of their width/height calculation: 
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
+
+
+
 
 /* 
 	Use Google Fonts to make all of the text Proza Libre.

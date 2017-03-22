@@ -4,7 +4,9 @@
 	<title>CSS HTML Forms Lab</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 	<section id="main">
 		<section class="formSection container">
 			<form class="form" method="GET">
@@ -102,25 +104,30 @@
 			results.innerHTML = '<h1>' + 'A true story:' + '</h1>';
 			results.className = 'container results';
 			main.appendChild(results);
-		};
-		/*
 		
-			Make a function that will create <section> element and append it to #main.
-			Give the new <section> classes of "container" and "results"
-			Put an <h1> inside it that says "A True Story:"
-			Don't append it until the form has been submitted.
+		};
 
-		*/
+		
+		var name = ("name").val();
+		var verb-1().val();
+		var sentence1 = "Once upon on time there was a Developer named" + name;
+		$('.results').append(sentence1);
 
 
 		$("form").on("submit", function(event){
 
-		    // Stop the form from submitting
+		    event.preventDefault();
+		    makeResults();
+	    	append.results();
 
-	    	// Append the new <section> created above.
 
+
+
+
+// create all the varaiables asing the values using .val
 	    	/*
 			
+
 				For each value entered into a form input, add the input to the corresponding sentence, then append the text into the results section:
 
 				"Once upon a time there was a Developer named NAME."
