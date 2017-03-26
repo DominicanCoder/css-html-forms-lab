@@ -3,10 +3,10 @@ body {
 	font-family: Proza Libre;
 	box-sizing: border-box;
 	content: default;
-	width: 900px;
-	height: 900%;
+	width: 50%;
+	height: 100%;
 	padding: 30px;
-	bor
+	margin:0;
 
 
 
@@ -14,9 +14,33 @@ body {
 	/* ^^^ Forces all elements to include content, padding, a.nd border as part of their width/height calculation: 
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
-div,
-
-
+#radio{
+	display: block;
+}
+#main{
+	display: block;
+	padding: 10px;
+}
+input,#mission{
+	padding: 10px;
+	width: 85%;
+	height: 100%;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+select#verb1{
+	height: 48px;
+	width: 48px;
+}
+label{
+	padding: 20px;
+	margin-left: 0;
+}
+input#radio1,input#radio2,input#radio3,input#check1,input#check2,input#check3{
+	display: inline-block;
+	width: 10%;
+	margin-left: 10%;
+}
 
 
 /* 
@@ -28,8 +52,9 @@ div,
 h1{
 	font-size: 30px;
 	font-weight: bold;
-	margin:0 auto;
+	margin:0 ;
 	display: block;
+	padding: 20px;
 }
 
 /*-------- Main Styles --------*/
