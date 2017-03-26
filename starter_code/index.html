@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
 	<title>CSS HTML Forms Lab</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
 	<section id="main">
 		<section class="formSection container">
 			<form class="form" method="GET">
@@ -88,17 +88,21 @@
 				    	<input id="noun-2" name="noun-2">
 					</div>
 					<div class="row formGroup">
-				    	<input type="submit">
+				    	<input id="botton" type="submit">
 				    </div>
 				    
 			    </div>
 			</form>
+			<p id="resultsOfTheForm"></p>
 		</section>
 	</section>
 	
 
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script type="text/javascript">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+	</script>
+
+    <script src= "file.js"></script>
+	<!--script type="text/javascript">
 
 		var main = document.querySelector('#main');
 		function makeResults() {
@@ -111,13 +115,13 @@
 
 		
 		var name = ("name").val();
-		var verb-1().val();
+		var verb1().val();
 		var sentence1 = "Once upon on time there was a Developer named" + name;
 		$('.results').append(sentence1);
 
 
 		$("form").on("submit", function(event){
-
+console.log("the submit button is click");
 		    event.preventDefault();
 		    makeResults();
 	    	append.results();
@@ -144,7 +148,7 @@
 
 	    	*/ 
 		});
-	</script>
+	</script-->
 
 </body>
 </html>

@@ -37,7 +37,7 @@ The design the client is asking for is loosely based on [Bootstrap's Form CSS](h
 
 - Fill in the JS pseudo-code so that the form works
 - Style the form elements according to the descriptions in the CSS file so that it looks nice
-- On submit, the form should render the information from the form on the page
+	- On submit, the form should show the input values from the form on the page somewhere, like in a text or paragraph
 
 ### BONUS!
 
