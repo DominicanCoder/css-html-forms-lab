@@ -2,9 +2,8 @@
 body {
 	box-sizing: border-box; 
 	content: default;
-	width: 50px;
-	height: 50px;
-
+	width: 600px;
+	height: 500px;
 
 
 
@@ -23,6 +22,12 @@ body {
 	Make the Title twice as large as the body text, bold, and give it some nice margin.
 */
 
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin:25%;
+}
+
 /*-------- Main Styles --------*/
 
 /* 
@@ -32,7 +37,22 @@ body {
 
 	Every container, form, input, and button should have rounded corners.
 */
+.formSectionContainer{
+	width: 100%;
+	border-radius: 15%
+}
+.form{
+	float: left;
+	border-radius: 15%
+	width:400px;
+	background-color: #E3E6EC;
 
+}
+.results{
+	float: left;
+	border-radius: 15%;
+
+}
 /*-------- Form Styles --------*/
 
 
