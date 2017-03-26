@@ -1,17 +1,20 @@
 /*-------- Utility Styles --------*/
 body {
-	box-sizing: border-box; 
+	font-family: Proza Libre;
+	box-sizing: border-box;
 	content: default;
-	width: 600px;
-	height: 500px;
+	width: 900px;
+	height: 900%;
+	padding: 30px;
+	bor
 
 
 
 
-
-	/* ^^^ Forces all elements to include content, padding, and border as part of their width/height calculation: 
+	/* ^^^ Forces all elements to include content, padding, a.nd border as part of their width/height calculation: 
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
+div,
 
 
 
@@ -23,9 +26,10 @@ body {
 */
 
 h1{
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
-	margin:25%;
+	margin:0 auto;
+	display: block;
 }
 
 /*-------- Main Styles --------*/
@@ -38,20 +42,26 @@ h1{
 	Every container, form, input, and button should have rounded corners.
 */
 .formSectionContainer{
-	width: 100%;
-	border-radius: 15%
+	width: 200%;
+	border-radius: 25%
+
 }
-.form{
+.formGroup{
 	float: left;
-	border-radius: 15%
-	width:400px;
+	border-radius: 35%
+	width:100%;
 	background-color: #E3E6EC;
+	margin:0 auto;
 
 }
 .results{
 	float: left;
 	border-radius: 15%;
 
+}
+.row{
+	width: 100%;
+	display: inline-block;
 }
 /*-------- Form Styles --------*/
 
